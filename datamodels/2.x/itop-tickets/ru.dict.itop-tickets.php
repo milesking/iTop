@@ -216,15 +216,4 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Class:ResponseTicketTTO/Interface:iMetricComputer+' => 'Goal based on a SLT of type TTO~~',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer' => 'Time To Resolve~~',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'Goal based on a SLT of type TTR~~',
-
-	'portal:itop-portal' => 'Пользовательский портал', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
-	'Page:DefaultTitle' => '%1$s - Пользовательский портал',
-	'Brick:Portal:UserProfile:Title' => 'Мой профиль',
-	'Brick:Portal:NewRequest:Title' => 'Новый запрос',
-	'Brick:Portal:NewRequest:Title+' => '<p>Нужна помощь?</p><p>Выберите услугу из&nbsp;каталога и&nbsp;отправьте свой запрос команде поддержки.</p>',
-	'Brick:Portal:OngoingRequests:Title' => 'Текущие запросы',
-	'Brick:Portal:OngoingRequests:Title+' => '<p>Следите за&nbsp;открытыми запросами.</p><p>Проверяйте ход решения, добавляйте комментарии и&nbsp;вложения, подтверждайте решение.</p>',
-	'Brick:Portal:OngoingRequests:Tab:OnGoing' => 'В работе',
-	'Brick:Portal:OngoingRequests:Tab:Resolved' => 'Решенные',
-	'Brick:Portal:ClosedRequests:Title' => 'Закрытые запросы',
 ));

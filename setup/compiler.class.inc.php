@@ -1559,8 +1559,7 @@ EOF
 							$oDefNode = $oXMLDoc->importNode($oNode, true); // layout, cells, etc Nodes and below
 							$oRootNode->appendChild($oDefNode);
 						}
-						$sFileNameDir = (empty($sModuleRelativeDir)) ? 'core' : $sModuleRelativeDir;
-						$sFileName = $sFileNameDir.'/'.$sFileName;
+						$sFileName = $sModuleRelativeDir.'/'.$sFileName;
 						$oXMLDoc->save($sTempTargetDir.'/'.$sFileName);
 						$aParameters['definition_file'] = "'".str_replace("'", "\\'", $sFileName)."'";
 					}
@@ -2134,8 +2133,7 @@ EOF
 					$oDefNode = $oXMLDoc->importNode($oNode, true); // layout, cells, etc Nodes and below
 					$oRootNode->appendChild($oDefNode);
 				}
-				$sFileNameDir = (empty($sModuleRelativeDir)) ? 'core' : $sModuleRelativeDir;
-				$oXMLDoc->save($sTempTargetDir.'/'.$sFileNameDir.'/'.$sFileName);
+				$oXMLDoc->save($sTempTargetDir.'/'.$sModuleRelativeDir.'/'.$sFileName);
 			}
 			$sNewMenu = "new DashboardMenuNode('$sMenuId', $sTemplateSpec, $sParentSpec, $fRank {$sOptionalEnableParams});";
 			break;

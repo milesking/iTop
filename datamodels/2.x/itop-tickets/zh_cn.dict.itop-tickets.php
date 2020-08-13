@@ -237,15 +237,4 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ResponseTicketTTO/Interface:iMetricComputer+' => 'SLT 的响应时间',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer' => '解决时间',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'SLT 的解决时间',
-
-	'portal:itop-portal' => '标准门户', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
-	'Page:DefaultTitle' => 'iTop - 用户门户',
-	'Brick:Portal:UserProfile:Title' => '我的资料',
-	'Brick:Portal:NewRequest:Title' => '新建工单',
-	'Brick:Portal:NewRequest:Title+' => '<p>需要帮助?</p><p>选择子服务,然后提交工单给我们的支持团队.</p>',
-	'Brick:Portal:OngoingRequests:Title' => '正在处理的工单',
-	'Brick:Portal:OngoingRequests:Title+' => '<p>跟踪正在处理的工单.</p><p>查询进度, 添加留言, 添加附件, 确认解决方案.</p>',
-	'Brick:Portal:OngoingRequests:Tab:OnGoing' => '正在处理',
-	'Brick:Portal:OngoingRequests:Tab:Resolved' => '已解决',
-	'Brick:Portal:ClosedRequests:Title' => '已关闭的工单',
 ));

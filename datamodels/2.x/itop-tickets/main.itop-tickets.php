@@ -134,20 +134,15 @@ class _Ticket extends cmdbAbstractObject
 	public function UpdateImpactedItems()
 	{
 		require_once(APPROOT.'core/displayablegraph.class.inc.php');
-
 		/** @var ormLinkSet $oContactsSet */
 		$oContactsSet = $this->Get('contacts_list');
-		/** @var ormLinkSet $oCIsSet */
-		$oCIsSet = $this->Get('functionalcis_list');
-
 		$aCIsToImpactCode = array();
 		$aSources = array();
 		$aExcluded = array();
 		if (MetaModel::IsValidClass('FunctionalCI'))
 		{
+			/** @var ormLinkSet $oCIsSet */
 			$oCIsSet = $this->Get('functionalcis_list');
-
-
 			foreach ($oCIsSet as $oLink)
 			{
 				$iKey = $oLink->Get('functionalci_id');

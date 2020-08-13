@@ -3,7 +3,7 @@
   <extension_code>itop-bridge-cmdb-ticket</extension_code>
   <version>1.0.0</version>
   <label><![CDATA[Bridge for CMDB and Ticket]]></label>
-  <description><![CDATA[Put here a longer description of your extension]]></description>
+  <description><![CDATA[This module adds lnk between classes brought by CMDB and Ticket]]></description>
   <mandatory>false</mandatory>
   <more_info_url></more_info_url>
 </extension>

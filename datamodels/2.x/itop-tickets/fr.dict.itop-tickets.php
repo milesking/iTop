@@ -227,15 +227,4 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'Class:ResponseTicketTTO/Interface:iMetricComputer+' => 'Objectif calculé à partir d\'un SLT de type TTO',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer' => 'Temps de Résolution (TTR)',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'Objectif calculé à partir d\'un SLT de type TTR',
-
-	'portal:itop-portal' => 'Portail standard', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
-	'Page:DefaultTitle' => '%1$s - Portail utilisateur',
-	'Brick:Portal:UserProfile:Title' => 'Mon profil',
-	'Brick:Portal:NewRequest:Title' => 'Nouvelle requête',
-	'Brick:Portal:NewRequest:Title+' => '<p>Besoin d\'assistance&nbsp;?</p><p>Choisissez un service (assistance ou dépannage) et soumettez votre requête à nos équipes de support.</p>',
-	'Brick:Portal:OngoingRequests:Title' => 'Requêtes en cours',
-	'Brick:Portal:OngoingRequests:Title+' => '<p>Suivez vos requêtes en cours.</p><p>Consultez l\'avancement, ajoutez des commentaires ou des pièces jointes, validez la solution.</p>',
-	'Brick:Portal:OngoingRequests:Tab:OnGoing' => 'Ouvertes',
-	'Brick:Portal:OngoingRequests:Tab:Resolved' => 'Résolues',
-	'Brick:Portal:ClosedRequests:Title' => 'Requêtes fermées',
 ));

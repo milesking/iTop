@@ -240,15 +240,4 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Class:ResponseTicketTTO/Interface:iMetricComputer+' => 'Goal based on a SLT of type TTO',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer' => 'Time To Resolve',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'Goal based on a SLT of type TTR',
-
-	'portal:itop-portal' => 'Standardní portál', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
-	'Page:DefaultTitle' => '%1$s - Uživatelský portál',
-	'Brick:Portal:UserProfile:Title' => 'Můj profil',
-	'Brick:Portal:NewRequest:Title' => 'Nový požadavek',
-	'Brick:Portal:NewRequest:Title+' => '<p>Potřebujete pomoci?</p><p>Vyberte z katalogu služeb a vytvořte nový požadavek.</p>',
-	'Brick:Portal:OngoingRequests:Title' => 'Otevřené požadavky',
-	'Brick:Portal:OngoingRequests:Title+' => '<p>Sledujte své otevřené požadavky.</p><p>Zkontrolujte stav, přidejte komentář, přiložte dokumenty, potvrďte řešení.</p>',
-	'Brick:Portal:OngoingRequests:Tab:OnGoing' => 'Probíhající',
-	'Brick:Portal:OngoingRequests:Tab:Resolved' => 'Vyřešené',
-	'Brick:Portal:ClosedRequests:Title' => 'Uzavřené požadavky',
 ));
