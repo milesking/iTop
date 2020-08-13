@@ -438,6 +438,5 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'Menu:Software+' => 'Catalogue des logiciels de références',
 	'UI_WelcomeMenu_AllConfigItems' => 'Résumé',
 	'Menu:ConfigManagement:Typology' => 'Configuration des typologies',
-
 ));
 
