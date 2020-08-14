@@ -41,7 +41,7 @@ class WebPageLight
 	 * @since 2.7.0 N°2529
 	 * @since 2.8.0 N°3253 moved from WebPage to new WebPageLight class
 	 */
-	public const PAGES_CHARSET = 'utf-8';
+	const PAGES_CHARSET = 'utf-8';
 
 	/**
 	 * @param string $sAbsolutePathRoot see {@link utils::GetAbsoluteUrlAppRoot()}
@@ -145,7 +145,6 @@ class SetupUtilsLight
 	 */
 	public static function CheckPhpVersion(&$aResult)
 	{
-		SetupPage::log('Info - CheckPHPVersion');
 		$sPhpVersion = phpversion();
 
 		if (version_compare($sPhpVersion, SetupConst::PHP_MIN_VERSION, '>='))
