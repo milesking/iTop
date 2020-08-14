@@ -1663,8 +1663,7 @@
 				</list>
 			</presentation>
 		</class>
-</classes>
-	<menus>
+</classes><menus>
 			<menu id="DataAdministration" xsi:type="MenuGroup" _delta="define">
 				<rank>70</rank>
 				<enable_class>Organization</enable_class>
