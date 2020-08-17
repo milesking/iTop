@@ -45,3 +45,28 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Class:lnkContactToFunctionalCI/Attribute:contact_name' => 'Název kontaktu',
 	'Class:lnkContactToFunctionalCI/Attribute:contact_name+' => '',
 ));
+
+//
+// Class: lnkFunctionalCIToTicket
+//
+
+Dict::Add('CS CZ', 'Czech', 'Čeština', array(
+	'Class:lnkFunctionalCIToTicket' => 'Spojení (Funkční konfigurační položka / Tiket)',
+	'Class:lnkFunctionalCIToTicket+' => '',
+	'Class:lnkFunctionalCIToTicket/Attribute:ticket_id' => 'Tiket',
+	'Class:lnkFunctionalCIToTicket/Attribute:ticket_id+' => '',
+	'Class:lnkFunctionalCIToTicket/Attribute:ticket_ref' => 'ID',
+	'Class:lnkFunctionalCIToTicket/Attribute:ticket_ref+' => '',
+	'Class:lnkFunctionalCIToTicket/Attribute:ticket_title' => 'Ticket title~~',
+	'Class:lnkFunctionalCIToTicket/Attribute:ticket_title+' => '~~',
+	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id' => 'Konfigurační položka',
+	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id+' => '',
+	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name' => 'Název konfigurační položky',
+	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name+' => '',
+	'Class:lnkFunctionalCIToTicket/Attribute:impact' => 'Dopad (text)',
+	'Class:lnkFunctionalCIToTicket/Attribute:impact+' => '',
+	'Class:lnkFunctionalCIToTicket/Attribute:impact_code' => 'Dopad',
+	'Class:lnkFunctionalCIToTicket/Attribute:impact_code/Value:manual' => 'Přidán manuálně',
+	'Class:lnkFunctionalCIToTicket/Attribute:impact_code/Value:computed' => 'Automaticky',
+	'Class:lnkFunctionalCIToTicket/Attribute:impact_code/Value:not_impacted' => 'Není zasažen',
+));

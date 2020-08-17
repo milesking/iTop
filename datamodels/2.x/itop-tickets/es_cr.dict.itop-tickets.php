@@ -113,32 +113,6 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 ));
 
 //
-// Class: lnkFunctionalCIToTicket
-//
-
-Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
-	'Class:lnkFunctionalCIToTicket' => 'Relación EC Funcional y Ticket',
-	'Class:lnkFunctionalCIToTicket+' => 'Relación EC Funcional y Ticket',
-	'Class:lnkFunctionalCIToTicket/Attribute:ticket_id' => 'Ticket',
-	'Class:lnkFunctionalCIToTicket/Attribute:ticket_id+' => 'Ticket',
-	'Class:lnkFunctionalCIToTicket/Attribute:ticket_ref' => 'Ref.',
-	'Class:lnkFunctionalCIToTicket/Attribute:ticket_ref+' => 'Ref.',
-	'Class:lnkFunctionalCIToTicket/Attribute:ticket_title' => 'Ticket title~~',
-	'Class:lnkFunctionalCIToTicket/Attribute:ticket_title+' => '~~',
-	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id' => 'EC',
-	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id+' => 'Elemanto de Configuración',
-	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name' => 'Elemanto de Configuración',
-	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name+' => 'Elemanto de Configuración',
-	'Class:lnkFunctionalCIToTicket/Attribute:impact' => 'Impacto',
-	'Class:lnkFunctionalCIToTicket/Attribute:impact+' => 'Impacto',
-	'Class:lnkFunctionalCIToTicket/Attribute:impact_code' => 'Impacto',
-	'Class:lnkFunctionalCIToTicket/Attribute:impact_code/Value:manual' => 'Agregado Manualmente',
-	'Class:lnkFunctionalCIToTicket/Attribute:impact_code/Value:computed' => 'Calculado',
-	'Class:lnkFunctionalCIToTicket/Attribute:impact_code/Value:not_impacted' => 'No impactado',
-));
-
-
-//
 // Class: WorkOrder
 //
 
