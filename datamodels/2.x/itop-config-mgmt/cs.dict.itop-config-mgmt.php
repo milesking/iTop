@@ -1520,4 +1520,58 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Class:Document:PreviewTab' => 'Náhled',
 ));
 
+//
+// Application Menu
+//
+
+Dict::Add('CS CZ', 'Czech', 'Čeština', array(
+	'Menu:Application' => 'Aplikace',
+	'Menu:Application+' => 'Všechny aplikace',
+	'Menu:DBServer' => 'Databázové servery',
+	'Menu:DBServer+' => 'Databázové servery',
+	'Menu:ConfigManagementCI' => 'Konfigurační položky',
+	'Menu:ConfigManagementCI+' => 'Konfigurační položky',
+	'Menu:BusinessProcess' => 'Obchodní procesy',
+	'Menu:BusinessProcess+' => 'Všechny obchodní procesy',
+	'Menu:ApplicationSolution' => 'Aplikační řešení',
+	'Menu:ApplicationSolution+' => 'Všechna aplikační řešení',
+	'Menu:ConfigManagementSoftware' => 'Správa aplikací',
+	'Menu:Licence' => 'Licence',
+	'Menu:Licence+' => 'Všechny licence',
+	'Menu:Patch' => 'Záplaty (patche)',
+	'Menu:Patch+' => 'Všechny záplaty (patche)',
+	'Menu:ApplicationInstance' => 'Instalovaný software',
+	'Menu:ApplicationInstance+' => 'Aplikace a databázové servery',
+	'Menu:ConfigManagementHardware' => 'Správa infrastruktury',
+	'Menu:Subnet' => 'Podsítě (subnety)',
+	'Menu:Subnet+' => 'Všechny podsítě (subnety)',
+	'Menu:NetworkDevice' => 'Síťová zařízení',
+	'Menu:NetworkDevice+' => 'Všechna síťová zařízení',
+	'Menu:Server' => 'Servery',
+	'Menu:Server+' => 'Všechny servery',
+	'Menu:Printer' => 'Tiskárny',
+	'Menu:Printer+' => 'Všechny tiskárny',
+	'Menu:MobilePhone' => 'Mobilní telefony',
+	'Menu:MobilePhone+' => 'Všechny mobilní telefony',
+	'Menu:PC' => 'Osobní počítače',
+	'Menu:PC+' => 'Všechny osobní počítače',
+	'Menu:NewCI' => 'Nová konfigurační položka',
+	'Menu:NewCI+' => 'Nová konfigurační položka',
+	'Menu:SearchCIs' => 'Hledat konfigurační položky',
+	'Menu:SearchCIs+' => 'Hledat konfigurační položky',
+	'Menu:ConfigManagement:Devices' => 'Zařízení',
+	'Menu:ConfigManagement:AllDevices' => 'Infrastruktura',
+	'Menu:ConfigManagement:virtualization' => 'Virtualizace',
+	'Menu:ConfigManagement:EndUsers' => 'Koncová zařízení',
+	'Menu:ConfigManagement:SWAndApps' => 'Software a aplikace',
+	'Menu:ConfigManagement:Misc' => 'Ostatní',
+	'Menu:Group' => 'Skupiny konfiguračních položek',
+	'Menu:Group+' => 'Skupiny konfiguračních položek',
+	'Menu:OSVersion' => 'Verze OS',
+	'Menu:OSVersion+' => '',
+	'Menu:Software' => 'Katalog softwaru',
+	'Menu:Software+' => 'Katalog softwaru',
+));
+
+
 ?>

@@ -1527,4 +1527,58 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'Class:lnkDocumentToFunctionalCI/Attribute:document_name+' => '',
 ));
 
+//
+// Application Menu
+//
+
+Dict::Add('FR FR', 'French', 'Français', array(
+	'Menu:Application' => 'Logiciels',
+	'Menu:Application+' => 'Tous les logiciels',
+	'Menu:DBServer' => 'Serveur de base de données',
+	'Menu:DBServer+' => '',
+	'Menu:ConfigManagementCI' => 'CIs',
+	'Menu:ConfigManagementCI+' => 'CIs',
+	'Menu:BusinessProcess' => 'Processus métier',
+	'Menu:BusinessProcess+' => 'Tous les processus métiers',
+	'Menu:ApplicationSolution' => 'Solutions applicatives',
+	'Menu:ApplicationSolution+' => 'Toutes les solutions applicatives',
+	'Menu:ConfigManagementSoftware' => 'Gestion des logiciels',
+	'Menu:Licence' => 'Licences',
+	'Menu:Licence+' => 'Toutes les licences',
+	'Menu:Patch' => 'Patches',
+	'Menu:Patch+' => 'Tous les patches',
+	'Menu:ApplicationInstance' => 'Instances logiciels',
+	'Menu:ApplicationInstance+' => 'Logiciels installés',
+	'Menu:ConfigManagementHardware' => 'Gestion des infrastructures',
+	'Menu:Subnet' => 'Sous réseaux',
+	'Menu:Subnet+' => '',
+	'Menu:NetworkDevice' => 'Equipements réseaux',
+	'Menu:NetworkDevice+' => 'Tous les équipements réseaux',
+	'Menu:Server' => 'Serveurs',
+	'Menu:Server+' => '',
+	'Menu:Printer' => 'Imprimantes',
+	'Menu:Printer+' => 'Toutes les imprimantes',
+	'Menu:MobilePhone' => 'Téléphones portables',
+	'Menu:MobilePhone+' => 'Tous les téléphones portables',
+	'Menu:PC' => 'PCs',
+	'Menu:PC+' => 'Tous les PCs',
+	'Menu:NewCI' => 'Nouveau CI',
+	'Menu:NewCI+' => 'Nouveau CI',
+	'Menu:SearchCIs' => 'Rechercher des CIs',
+	'Menu:SearchCIs+' => 'Rechercher des CIs',
+	'Menu:ConfigManagement:Devices' => 'Equipements',
+	'Menu:ConfigManagement:AllDevices' => 'Infrastructures',
+	'Menu:ConfigManagement:virtualization' => 'Virtualisation',
+	'Menu:ConfigManagement:EndUsers' => 'Périphériques utilisateurs',
+	'Menu:ConfigManagement:SWAndApps' => 'Logiciels et applications',
+	'Menu:ConfigManagement:Misc' => 'Divers',
+	'Menu:Group' => 'Groupe de CIs',
+	'Menu:Group+' => 'Groupe de CIs',
+	'Menu:OSVersion' => 'Versions d\'OS',
+	'Menu:OSVersion+' => '',
+	'Menu:Software' => 'Catalogue des logiciels de références',
+	'Menu:Software+' => 'Catalogue des logiciels de références',
+));
+
+
 ?>
