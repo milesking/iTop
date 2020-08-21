@@ -29,7 +29,7 @@
 //////////////////////////////////////////////////////////////////////
 //
 
-Dict::Add('FR FR', 'French', 'Francais', array(
+Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'portal:itop-portal' => '标准门户', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
 	'Page:DefaultTitle' => 'iTop - 用户门户',
 	'Brick:Portal:UserProfile:Title' => '我的资料',

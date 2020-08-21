@@ -29,7 +29,7 @@
 //////////////////////////////////////////////////////////////////////
 //
 
-Dict::Add('FR FR', 'French', 'Francais', array(
+Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'portal:itop-portal' => 'Standard Portal', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
 	'Page:DefaultTitle' => '%1$s - Benutzer Portal',
 	'Brick:Portal:UserProfile:Title' => 'Mein Profile',
